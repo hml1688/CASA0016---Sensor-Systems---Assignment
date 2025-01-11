@@ -33,18 +33,27 @@ This device continuously monitors temperature and humidity using the DHT-22 sens
 <br> **2. Pomodoro Timer**
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/temperature%26humidity.jpg" alt="tem&hunidity" style="width: 260px; height: auto;">
-  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/humidity%20sensor.gif" alt="humidity alert" style="width: 250px; height: auto;">
+  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/Countdown%20interface.jpg" alt="countdown" style="width: 300px; height: auto;">
+  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/countdown.gif" alt="countdown gif" style="width: 300px; height: auto;">
 </div>
 
-If the user places his phone on the top of the PromodoZone for three seconds, the Timer mode will activated. The screen displays real-time temperature, humidity, and the countdown.  
-(NOTICE: For test and demonstration purposes, l've set the timer to 8 minutes instead of the standard 60 minutes.)
+<br>
 
-As time progresses, the Neopixel LEDs gradually turn off,visually indicating the passage of time. And the ultrasonic rangefinder has been detecting whether the phone is properly placed. 
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/Success%20interface.jpg" alt="success interface" style="width: 300px; height: auto;">
+  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/Fail%20interface.jpg" alt="task fail" style="width: 300px; height: auto;">
+</div>
+
+<br>
+
+If the user places his phone on the top of the PromodoZone for three seconds, the Timer mode will activated. The screen displays real-time temperature, humidity, and the countdown.  
+**(NOTICE: For test and demonstration purposes, l've set the timer to 8 minutes instead of the standard 60 minutes.)**
+
+As time progresses, the Neopixel LEDs gradually turn off, visually indicating the passage of time. And the ultrasonic rangefinder has been detecting whether the phone is properly placed. 
 
 If the phone is picked up during the process of concentration --->  The timer stops, the buzzer sounds, and NeoPixels turn red.  
-When the phone disappears more than 10s, the task fails ---> The LCD Screen flashes yellow and displays "Task Fail! Work harder!", then reverting to the environmental monitoring mode.  
-When the countdown ends sucessfully ---> the LCD Screen turns green, flashes for 5 seconds and displays "Success! Good Job!"
+When the phone disappears more than 10s, the task fails ---> The LCD Screen flashes yellow and displays "Task Fail! Work harder!", then revers to the environmental monitoring mode.  
+When the countdown ends successfully ---> the LCD Screen turns green, flashes for 5 seconds and displays "Success! Good Job!"
   
 ## Equipment
 
