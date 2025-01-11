@@ -8,9 +8,13 @@
 
 ## Project Overview
 
-
+I created this device called PomodoZone using the Arduino Uno, an LCD screen, a DHT-22 sensor, an Ultrasonic rangefinder, a Neopixel stick and a buzzer. It is designed to enhance focus and self-discipline, inspired by the Pomodoro Technique. It serves as both an environment monitor and a Promodoro timer that guides users in setting aside their phones and achieving work in a comfortable and motivating environment.
 
 ## Background & Inspiration
+
+The reason why l choose this topic is that in today's fast-paced world, staying focused has become increasingly challenging. On the one hand, research shows that environmental factors significantly affect academic performance. On the other hand, smartphones and digital distractions constantly pull us away from deep work. For example, for me, any change in the environment will make me unable to calm down, and my phone is so interesting that I always want to pick it up and play with it from time to time :(
+
+So to address this problem, my device continuously monitors temperature and humidity data and alerts users when it is time to adjust their environment for better focus. Meanwhile, the user must set their phone aside to start the timer.
 
 ## Detail Instructions
 
