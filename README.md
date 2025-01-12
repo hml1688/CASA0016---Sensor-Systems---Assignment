@@ -64,18 +64,18 @@ When the countdown ends successfully ---> the LCD Screen turns green, flashes fo
 (5) Neopixel stick 8  
 (6) PKM 22EPP-40 buzzer  
 
-## Architecture
+## Circuit Diagram
 
+  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/Circuit%20diagram.png" alt="success interface" style="width: 500px; height: auto;">
 
+  
+  <img src="https://github.com/hml1688/CASA0016---Sensor-Systems---Assignment/blob/main/Images/physical%20display.jpg" alt="task fail" style="width: 300px; height: auto;">
 
+## References
 
-### 2. Two Functions:  
-#### (1) Basic Mode (Environment Monitoring):
-Assesses temperature and humidity every second.
-Display: LCD Screen  
-#### (2) Focus Timer Mode:
-The Neopixel stick 8 provides a visual countdown, the LCD screen shows the remaining time.  
-  Check the phone's position every second, if it disappears ---> the Pixel stick flashes red + a buzzer sounds.  
-  When the phone disappears more than 10s, fail ---> the LCD Screen flashes yellow and displays "Task Fail! Work harder!"  
-  When the countdown ends sucessfully ---> the LCD Screen turns green, flashes for 5 seconds and displays "Success! Good Job!"
+1. Pomodoro Technique: https://en.wikipedia.org/wiki/Pomodoro_Technique
+2. Liu, C., Zhang, Y., Sun, L., Gao, W., Jing, X., & Ye, W. (2021). Influence of indoor air temperature and relative humidity on learning performance of undergraduates. Case Studies in Thermal Engineering, 28, 101458. https://doi.org/10.1016/j.csite.2021.101458
+3. Details about the PKM 22EPP-40 buzzer: https://detail.1688.com/offer/532891713462.html
+4. LCD libraries in Arduino: https://wiki.seeedstudio.com/Grove-LCD_RGB_Backlight/
+
 
