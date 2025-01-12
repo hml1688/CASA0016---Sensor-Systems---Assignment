@@ -52,7 +52,7 @@ If the user places his phone on the top of the PromodoZone for three seconds, th
 As time progresses, the Neopixel LEDs gradually turn off, visually indicating the passage of time. And the ultrasonic rangefinder has been detecting whether the phone is properly placed. 
 
 (1) If the phone is picked up during the process of concentration --->  The timer stops, the buzzer sounds, and NeoPixels turn red.  
-(2) When the phone disappears more than 10s, the task fails ---> The LCD Screen flashes yellow and displays "Task Fail! Work harder!", then revers to the environmental monitoring mode.  
+(2) When the phone disappears more than 10s, the task fails ---> The LCD Screen flashes yellow and displays "Task Fail! Work harder!", then reverses to the environmental monitoring mode.  
 (3) When the countdown ends successfully ---> the LCD Screen turns green, flashes for 5 seconds and displays "Success! Good Job!"
   
 ## Equipment
